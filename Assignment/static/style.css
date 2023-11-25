@@ -1,0 +1,38 @@
+body {
+    background: url('/static/images/background.jpg');
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #3d3b3b; /* Set the font color for the body */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 400%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 200%;
+}
+
+.prediction {
+    font-size: 300%;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+}

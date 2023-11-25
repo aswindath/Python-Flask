@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Iris Species Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Iris Features</h2>
+        
+        <form action="/predict" method="post">
+            <label for="sepal_length">Sepal Length:</label>
+            <input type="text" name="sepal_length" required>
+
+            <label for="sepal_width">Sepal Width:</label>
+            <input type="text" name="sepal_width" required>
+
+            <label for="petal_length">Petal Length:</label>
+            <input type="text" name="petal_length" required>
+
+            <label for="petal_width">Petal Width:</label>
+            <input type="text" name="petal_width" required>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
